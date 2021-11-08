@@ -24,7 +24,9 @@ function App() {
   }
 
   return (
-    <div className='container'>
+    <div className={(typeof weather.main != 'undefined') ?
+            ((weather.main.temp > 20) ? 'container-summer' : 'container-winter')
+                  : 'container'}>
       <h1>Weather Status</h1>
         <input 
         type='text'
