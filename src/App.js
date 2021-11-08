@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import location from './image/map(1).png'
-import temp from './image/fahrenheit.png'
+import temp from './image/centigrade.png'
 import humid from './image/humidity.png'
 import press from './image/thermometer.png'
 import wind from './image/windsock.png'
