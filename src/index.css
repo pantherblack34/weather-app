@@ -40,7 +40,7 @@ body{
 }
 
 .input{
-  position: fixed;
+  position: relative;
   display: block;
   margin-top: -55vh;
   outline: none;
@@ -108,4 +108,14 @@ body{
 .content5{
   margin-top: 20px;
   font-size: x-large;
+}
+
+@media only screen and (max-width: 600px) {
+   .container{
+     display: grid;
+     grid-template-columns: 1fr 0.5fr;
+     grid-template-rows: 0.6fr 0.4fr 0.4fr 0.4fr;
+     grid-gap: 20px;
+
+   }
 }
