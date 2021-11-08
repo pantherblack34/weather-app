@@ -40,7 +40,7 @@ body{
 }
 
 .input{
-  position: relative;
+  position: fixed;
   display: block;
   margin-top: -55vh;
   outline: none;
